@@ -1,0 +1,25 @@
+services:
+  backend:
+    build: .
+    container_name: customer-service-api
+    ports:
+      - "8080:8888"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD:
+      POSTGRES_URL: jdbc:postgresql://host.docker.internal:5432/spring_be
+      JWT_SECRET_KEY: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+#    depends_on:
+#      - database
+
+#  database:
+#    image: postgres:16.0
+#    environment:
+#      POSTGRES_USER: dbuser
+#      POSTGRES_PASSWORD: dbpass
+#      POSTGRES_DB: dbname
+#    volumes:
+#      - pgdata:/var/lib/postgresql/data
+#
+#volumes:
+#  pgdata:

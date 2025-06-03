@@ -41,7 +41,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USER_NAME }}/pcs:1.0.0
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/pcs:1.0.0
           build-args: |
             POSTGRES_USER=${{ secrets.POSTGRES_USER }}
             POSTGRES_PASSWORD=${{ secrets.POSTGRES_PASSWORD }}

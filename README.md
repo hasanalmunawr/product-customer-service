@@ -85,7 +85,7 @@ This project leverages a modern and robust technology stack to ensure scalabilit
 --- 
 ## Installation Guide
 
-Follow the steps below to install and run the After-Sales Management System locally.
+Follow the steps below to install and run the System locally.
 
 ---
 
@@ -94,52 +94,27 @@ Follow the steps below to install and run the After-Sales Management System loca
 First, clone the project from GitLab:
 
 ```bash
-  git clone https://gitlab.com/hasanalmunawr/after-sales-caturaga.git
-  cd after-sales-caturaga
+  git clone https://github.com/hasanalmunawr/product-customer-service.git
+  cd product-customer-service
 ```
 
 ### 2.  Install Dependencies
-Install all necessary backend and frontend dependencies:
+Install all necessary backend :
 ```bash
-  npm install           # For frontend (Vue.js or related assets)
-  php artisan install   # Custom Laravel installer script (if defined)
-```
-If `php artisan install` is not available, you can manually run:
-```bash
-  composer install
-  cp .env.example .env
-  php artisan key:generate
+  mvn install           
 ```
 
-### 3. Set Up the Database
-#### ***Option A***: Run Laravel Migrations and Seeder
-1. Make sure your `.env` file is configured with your database credentials.
-2. Run the migrations:
-```bash
-  php artisan migrate 
-```
-3. Seed the database with initial permission data:
-```bash
-  php artisan db:seed --class=PermissionSeeder
-```
-#### ***Option B***: Import SQL File (Recommended for Full Demo Setup)
-You can also import the full SQL file manually, which includes schema and initial data:
-```bash
-# Adjust the path based on your project structure
-  mysql -u your_db_user -p your_db_name < ./database/after_sales.sql
-```
 
 ### Default Admin Login
 If you import the SQL file, you can log in using the following credentials:
 
-- Email: `adminsuper@arisamandiri.com`
+- Email: `adminsuper@gmail.com`
 - Password: `12345678`
 
 --- 
 ## Developer
 **Hasan Almunawar**  
 📧 Email: [hasanalmunawar9@gmail.com](mailto:hasanalmunawar9@gmail.com)  
-🐙 GitHub: [github.com/hasanalmunawr](https://github.com/hasanalmunawr)  
 📅 Year: 2025
 
 

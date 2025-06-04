@@ -22,4 +22,4 @@ application:
         expiration: 604800000 # 7 days --> not used
 
 server:
-  port: 8088
+  port: 80

@@ -5,7 +5,6 @@ import hasanalmunawr.dev.backend_spring.base.constants.ResponseMessage;
 import hasanalmunawr.dev.backend_spring.base.exception.NotFoundException;
 import hasanalmunawr.dev.backend_spring.base.repository.GeneralRepository;
 import hasanalmunawr.dev.backend_spring.base.task.TaskProcessor;
-import hasanalmunawr.dev.backend_spring.master.model.Branch;
 import hasanalmunawr.dev.backend_spring.sales.api.request.ServiceOrderRequest;
 import hasanalmunawr.dev.backend_spring.sales.api.response.ServiceOrderResponse;
 import hasanalmunawr.dev.backend_spring.sales.model.ServiceOrder;

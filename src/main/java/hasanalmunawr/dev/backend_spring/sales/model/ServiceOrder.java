@@ -1,10 +1,6 @@
 package hasanalmunawr.dev.backend_spring.sales.model;
 
 import hasanalmunawr.dev.backend_spring.base.model.BaseModel;
-import hasanalmunawr.dev.backend_spring.master.api.response.BranchResponse;
-import hasanalmunawr.dev.backend_spring.master.model.Branch;
-import hasanalmunawr.dev.backend_spring.sales.api.response.ServiceOrderResponse;
-import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 import lombok.Data;

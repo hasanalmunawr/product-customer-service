@@ -1,8 +1,6 @@
 package hasanalmunawr.dev.backend_spring.sales.service;
 
-import hasanalmunawr.dev.backend_spring.master.api.request.ProductRequest;
 import hasanalmunawr.dev.backend_spring.sales.api.request.ServiceOrderRequest;
-import hasanalmunawr.dev.backend_spring.sales.api.response.ServiceOrderResponse;
 import org.springframework.http.ResponseEntity;
 
 public interface ServiceOrderService {

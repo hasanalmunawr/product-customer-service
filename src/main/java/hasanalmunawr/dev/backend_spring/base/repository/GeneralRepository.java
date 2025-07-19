@@ -1,13 +1,13 @@
 package hasanalmunawr.dev.backend_spring.base.repository;
 
-import hasanalmunawr.dev.backend_spring.master.repository.BranchRepository;
-import hasanalmunawr.dev.backend_spring.master.repository.ColorRepository;
-import hasanalmunawr.dev.backend_spring.master.repository.ProductRepository;
-import hasanalmunawr.dev.backend_spring.master.repository.RegionRepository;
+
+import hasanalmunawr.dev.backend_spring.bankAccount.repository.BankAccountRepository;
+import hasanalmunawr.dev.backend_spring.budget.repository.BudgetRepository;
+import hasanalmunawr.dev.backend_spring.category.repository.CategoryRepository;
+import hasanalmunawr.dev.backend_spring.debts.repository.DebtRepository;
 import hasanalmunawr.dev.backend_spring.sales.repository.ServiceOrderRepository;
 import hasanalmunawr.dev.backend_spring.user.repository.UserRepository;
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -19,17 +19,17 @@ public class GeneralRepository {
     private UserRepository userRepository;
 
     @Autowired
-    private BranchRepository branchRepository;
-
-    @Autowired
-    private ColorRepository colorRepository;
-
-    @Autowired
-    private ProductRepository productRepository;
-
-    @Autowired
-    private RegionRepository regionRepository;
-
-    @Autowired
     private ServiceOrderRepository serviceOrderRepository;
+
+    @Autowired
+    private BankAccountRepository bankAccountRepository;
+
+    @Autowired
+    private CategoryRepository categoryRepository;
+
+    @Autowired
+    private BudgetRepository budgetRepository;
+
+    @Autowired
+    private DebtRepository debtRepository;
 }

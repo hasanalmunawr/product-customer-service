@@ -26,6 +26,7 @@ public class BaseModel {
     private LocalDateTime createdAt;
 
     @CreatedBy
+    @Column(name = "created_by")
     private String createdBy;
 
     @LastModifiedDate
@@ -33,6 +34,7 @@ public class BaseModel {
     private LocalDateTime updatedAt;
 
     @LastModifiedBy
+    @Column(name = "updated_by")
     private String updatedBy;
 
 

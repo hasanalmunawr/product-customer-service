@@ -17,6 +17,12 @@ public class Endpoint {
         public static final String COLOR = "/colors";
         public static final String PRODUCT = "/products";
         public static final String SERVICE_ORDER = "/service-orders";
+
+        public static final String BANK_ACCOUNT = "/bank-accounts";
+        public static final String TRANSACTION = "/transactions";
+        public static final String CATEGORY = "/categories";
+        public static final String BUDGET = "/budgets";
+        public static final String DEBT = "/debts";
     }
 
     public static class Basic {

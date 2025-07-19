@@ -1,7 +1,6 @@
 package hasanalmunawr.dev.backend_spring.sales.repository;
 
 import hasanalmunawr.dev.backend_spring.base.repository.BaseRepository;
-import hasanalmunawr.dev.backend_spring.master.model.Branch;
 import hasanalmunawr.dev.backend_spring.sales.model.ServiceOrder;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
